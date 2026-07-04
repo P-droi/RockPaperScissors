@@ -13,7 +13,7 @@ BaselineOfRockPaperScissors >> baseline: spec [
 			spec
 				baseline: 'MathRandomNumbers'
 				with: [
-				spec repository: 'github://PolyMathOrg/random-numbers;v1.x.x/src' ].
+				spec repository: 'github://PolyMathOrg/random-numbers:v1.x.x/src' ].
 			"Pattern to specify the external GitHub dependency, version number 
 				and folder where the source code lies"
 
