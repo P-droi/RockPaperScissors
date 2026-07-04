@@ -27,7 +27,7 @@ BaselineOfRockPaperScissors >> baseline: spec [
 			"Exclude specific packages from repository"
 			spec group: 'Core' with: #( 'RockPaperScissors' ).
 
-			spec group: 'Tests' with: #( 'RockPaperScissors-Tests' ).
+			spec group: 'Tests' with: #( 'RockPaperScissors-Test' ).
 
 			"This will load the Test group, which depends on the test package, which depends on our 
 			actual code, so the default load (it is not just a user-defined name. Standard is default) 
